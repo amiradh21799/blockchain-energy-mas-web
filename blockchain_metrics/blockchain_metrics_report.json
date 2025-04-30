@@ -1,0 +1,76 @@
+{
+  "transaction_stats": {
+    "register_agent": {
+      "avg_time": 0.25796768882057886,
+      "min_time": 0.1741490364074707,
+      "max_time": 0.40280890464782715,
+      "avg_gas": 427549.0909090909,
+      "min_gas": "163353",
+      "max_gas": "706580",
+      "success_rate": 1.0
+    },
+    "allocate_energy": {
+      "avg_time": 0.2705604362487793,
+      "min_time": 0.04830646514892578,
+      "max_time": 0.957280158996582,
+      "avg_gas": 99069.26,
+      "min_gas": "28410",
+      "max_gas": "121957",
+      "success_rate": 1.0
+    },
+    "advance_hour": {
+      "avg_time": 0.08029600977897644,
+      "min_time": 0.03822660446166992,
+      "max_time": 0.2522742748260498,
+      "avg_gas": 30181.5,
+      "min_gas": "24869",
+      "max_gas": "46769",
+      "success_rate": 1.0
+    },
+    "process_payment": {
+      "avg_time": 0.07449227571487427,
+      "min_time": 0.060291290283203125,
+      "max_time": 0.10810017585754395,
+      "avg_gas": 28112.0,
+      "min_gas": "28070",
+      "max_gas": "28154",
+      "success_rate": 1.0
+    }
+  },
+  "gini_coefficient": 0.6777818807903375,
+  "cost_benefit_ratio": {
+    "Storage": 3.129543077772932,
+    "Grid": 308.7728185242969,
+    "Building 1": 57.60487686285715,
+    "Building 2": 108.05336365757141,
+    "Building 3": 208.52336163581427,
+    "Building 4": 44.757585383232865,
+    "EV 1": 1.084663852550106,
+    "EV 2": 0.9461627114185226,
+    "EV 3": 0.37118250966985716,
+    "EV 4": 1.60394644027667
+  },
+  "tps": 0.8630952380952381,
+  "event_distribution": {
+    "AgentRegistered": 11,
+    "EnergyAllocated": 268,
+    "HourAdvanced": 23,
+    "PriceUpdated": 0,
+    "EnergyCostCalculated": 96,
+    "PaymentProcessed": 1,
+    "ResourcesUpdated": 100
+  },
+  "blockchain_size": 148480,
+  "agent_costs": {
+    "Storage": 2.160918199771432,
+    "Grid": 308.7728185242969,
+    "Building 1": 57.60487686285715,
+    "Building 2": 108.05336365757141,
+    "Building 3": 208.52336163581427,
+    "Building 4": 44.75758538323286,
+    "EV 1": 1.084663852550106,
+    "EV 2": 0.9461627114185226,
+    "EV 3": 0.37118250966985716,
+    "EV 4": 1.60394644027667
+  }
+}

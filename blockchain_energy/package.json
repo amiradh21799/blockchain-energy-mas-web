@@ -1,0 +1,33 @@
+{
+  "name": "blockchain-energy",
+  "version": "1.0.0",
+  "description": "Système de gestion d'énergie décentralisé basé sur blockchain",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "compile": "truffle compile",
+    "migrate": "truffle migrate",
+    "deploy": "node src/deploy.js",
+    "test": "truffle test"
+  },
+  "keywords": [
+    "blockchain",
+    "energy",
+    "smart-contracts",
+    "agents",
+    "truffle",
+    "ethereum"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.9",
+    "web3": "^1.9.0"
+  },
+  "devDependencies": {
+    "truffle": "^5.8.4",
+    "truffle-contract-size": "^2.0.1"
+  }
+}
